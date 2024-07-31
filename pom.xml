@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ecommerce-BE</artifactId>
+	<artifactId>epicFigures-Sem4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ecommerce-BE</name>
-	<description>ecommerce-BE</description>
+	<name>epicFigures-Sem4</name>
+	<description>epicFigures-Sem4</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -191,13 +191,6 @@
 
 	<build>
 		<plugins>
-<!--			<plugin>&ndash;&gt;-->
-<!--			&lt;!&ndash;                <artifactId>maven-surefire-plugin</artifactId>&ndash;&gt;-->
-<!--			&lt;!&ndash;                <version>2.10</version>&ndash;&gt;-->
-<!--			&lt;!&ndash;                <configuration>&ndash;&gt;-->
-<!--			&lt;!&ndash;                    <useFile>false</useFile>&ndash;&gt;-->
-<!--			&lt;!&ndash;                </configuration>&ndash;&gt;-->
-<!--			&lt;!&ndash;            </plugin>&ndash;&gt;-->
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>

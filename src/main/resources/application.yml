@@ -1,22 +1,22 @@
 spring:
   application:
-    name: ecommerce-BE
+    name: epicFigures-Sem4
 
   datasource:
-#    url: jdbc:h2:mem:testdb
-#    driverClassName: org.h2.Driver
-#    username: sa
-#    password: password
-    url: jdbc:mysql://localhost:3306/ecommerce_tasc
-    driverClassName: com.mysql.cj.jdbc.Driver
-    username: root
-    password:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+#    url: jdbc:mysql://localhost:3306/ecommerce_tasc
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password:
 
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-#    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.H2Dialect
 
   security:
     oauth2:
@@ -24,19 +24,19 @@ spring:
         registration:
           github:
             client-id: Ov23li5fRSLhcmlB7nDs
-            client-secret: 729963bd07baffdc0830c6a8afdbc2434ccc2892
+            client-secret: 729963bd07baa6a8afdbc2434ccc2892
             redirect-uri: ${application.returnUrl}
             # scope: email, public_profile
           google:
 #            client-id: 1086239543051-slijoqf2pnhskd4q2d4qg89uuod0p8cl.apps.googleusercontent.com
 #            client-secret: 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
-            client-id: 1086239543051-ug33jsc1pdhsaai2kna5gk69kutdd1re.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 1086239543051-ug33jsc1pdhsaai2katdd1re.apps.googleusercontent.com
+            client-secret: GOCSPX-zc4JEiyBTlMaKmuuxKD6wNcIT
             redirect-uri: ${application.returnUrl}
 
           facebook:
-            client-id: 1632890864218116
-            client-secret: 80be9bb154d02c8fc043624aab30c788
+            client-id: 16328a8116
+            client-secret: 80be9bbafc043624aab30c788
             redirect-uri: ${application.returnUrl}
 server:
   port: 8081
